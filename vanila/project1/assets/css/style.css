@@ -1,0 +1,125 @@
+/* is used in class 3 */
+* {
+    margin: 0;
+    padding: 0;
+}
+.dynamic {
+    color: red;
+}
+
+form {
+    background: #eee;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: rgb(155, 245, 177);
+    height: 160px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.card__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card__details {
+    font-size: 14px;
+}
+
+.form__div {
+    padding: 5px;
+}
+
+.form__lbl1,
+.form__lbl2,
+.form__lbl3 {
+    font-size: 18px;
+}
+
+.form__inp1,
+.form__inp2,
+.form__inp3 {
+    font-weight: 600;
+}
+
+.form__btn {
+    padding: 5px 16px;
+    align-self: center;
+    background-color: green;
+    border: none;
+}
+
+.form__group {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form__input{
+    width: 60%;
+}
+
+#country {
+    width: 62%;
+}
+
+.form__gender .form__label {
+    margin-right: 85px;
+}
+
+.form__submit {
+    width: 25%;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 5px;
+    background-color: rgb(129, 233, 129);
+    border: none;
+}
+
+.student {
+    width: 30%;
+}
+
+.student__card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b5f085;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.student__close {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.student__img {
+    width: 20%;
+}
+
+.student__img img {
+    width: 100%;
+}

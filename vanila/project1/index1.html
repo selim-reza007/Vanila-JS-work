@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <p id="id1">Selim Reza</p>
+    <p class="class1">Dell inspirion 3537</p>
+    <p id="id2" class="myClass"></p>
+    <ul id="ulid1">
+        <li>table</li>
+        <li>light</li>
+        <li class="fanItem">fan</li>
+        <li>glass</li>
+    </ul>
+
+    <form action="#" class="form">
+        <div class="form__div">
+            <label for="firstName" class="form__lbl1">First Name</label>
+            <input type="text" class="form__inp1" id="firstName" value="Jhon" placeholder="First Name"
+                onfocus="this.style.backgroundColor='red'" onblur="this.style.backgroundColor='white'">
+        </div>
+
+        <div class="form__div">
+            <label for="lastName" class="form__lbl2">Last Name</label>
+            <input type="text" class="form__inp2" id="lastName" value="Smith" placeholder="Last Name">
+        </div>
+
+        <div class="form__div">
+            <label for="email" class="form__lbl3">Email</label>
+            <input type="email" class="form__inp3" id="email" value="Smith@gmail.com" placeholder="Email">
+        </div>
+
+        <button class="form__btn">Submit</button>
+    </form>
+
+    <!-- <img src="assets/images/img-1.jpg" alt="sample img" height="250"> -->
+    <table class="product">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody class="product__body">
+            <tr>
+                <td>Madador ball pen</td>
+                <td>6 taka</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Logi tech</td>
+                <td>850 taka</td>
+                <td>1</td>
+            </tr>
+            <tr class="lastchildTr">
+                <td>Magi Nudules</td>
+                <td>80 taka</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <form action="#" onsubmit="return submitForm(event)"> -->
+    <form action="#">
+        <div class="form__group">
+            <label for="id" class="form__label">Student ID</label>
+            <input type="text" class="form__input" id="id" value="101">
+        </div>
+
+        <div class="form__group">
+            <label for="name" class="form__label">Student Name</label>
+            <input type="text" class="form__input" id="name" value="Selim">
+        </div>
+
+        <div class="form__group">
+            <label for="country" class="form__label">Country</label>
+            <select name="country" id="country">
+                <option value="">Select Country</option>
+                <option value="usa" selected>USA</option>
+                <option value="uk">UK</option>
+                <option value="bd">BD</option>
+                <option value="ukrain">Ukrain</option>
+            </select>
+        </div>
+
+        <div class="form__gender">
+            <label for="gender" class="form__label">Gender</label>
+            <input type="radio" class="gender" name="gender" id="male" value="male" checked>
+            <label for="male" class="form__label2">Male</label>
+
+            <input type="radio" class="gender" name="gender" id="female" value="female">
+            <label for="female" class="form__label2">Female</label>
+
+            <input type="radio" class="gender" name="gender" id="other" value="other">
+            <label for="other" class="form__label2">Other</label>
+        </div>
+
+        <button class="form__submit" type="submit" onclick="submitForm(event)">Submit</button>
+    </form>
+
+    <div class="student">
+
+    </div>
+    <script src="assets/js/dom/dom-pratice.js"></script>
+    <!-- <script src="assets/js/dom/class17.js"></script> -->
+    <!-- <script src="assets/js/dom/class16.js"></script> -->
+    <!-- <script src="assets/js/dom/class6.js"></script> -->
+    <!-- <script src="assets/js/dom/class5.js"></script> -->
+    <!-- <script src="assets/js/dom/class3.js"></script> -->
+    <!-- <script src="assets/js/dom/class2.js"></script> -->
+    <!-- <script src="assets/js/pyramid.js"></script> -->
+</body>
+
+</html>

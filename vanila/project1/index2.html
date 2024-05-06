@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM practice</title>
+    <link rel="stylesheet" href="assets/css/domstyle.css">
+</head>
+
+<body>
+    <h3>This document is to test DOM operations</h3>
+    <p class="body__p1">Demo text 1</p>
+    <p class="body__p2">Text demo 2</p>
+    <p class="body__p3">This is demo text 3</p>
+
+    <a href="#" class="body__link">Click here</a>
+
+    <ul class="body__ul">
+        <li>Potato</li>
+        <li>Chicken</li>
+        <li>Pumpkin</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ol class="body__ol">
+        <li>Book</li>
+        <li>Khata</li>
+        <li>Pen</li>
+        <li>Ereaser</li>
+        <li>Pencil</li>
+    </ol>
+
+    <form action="#" class="form">
+
+        <div class="form__group">
+            <label for="nameInp" class="form__label">Name</label>
+            <input type="text" id="nameInp" class="form__input name" placeholder="Enter your name" value="Selim Reza">
+        </div>
+
+        <div class="form__group">
+            <label for="emailInp" class="form__label">Email</label>
+            <input type="email" id="emailInp" class="form__input email" placeholder="Enter your email"
+                value="selim@gmail.com">
+        </div>
+
+        <div class="form__group form__group--country">
+            <label for="country" class="form__label">Country</label>
+            <select name="country" id="country" class="form__inputSelect">
+                <option value="">Select country</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="USA">USA</option>
+                <option value="Ukrain" selected>Ukrain</option>
+            </select>
+        </div>
+
+        <div class="form__group form__group--gender">
+            <label for="gender" class="form__label">Gender</label>
+            <div class="form__radioInp">
+                <input type="radio" name="gender" class="gender" id="male" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" class="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" class="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+
+        <div class="form__group form__group--hobies">
+            <label>Select hobbies</label>
+            <div class="form__selectInp">
+                <input type="checkbox" class="hobbies" id="cycling" name="hobbies" value="cycling">
+                <label for="cycling">Cycling</label>
+                <input type="checkbox" class="hobbies" id="running" name="hobbies" value="running">
+                <label for="running">Running</label>
+                <input type="checkbox" class="hobbies" id="gardening" name="hobbies" value="gardening">
+                <label for="gardening">Cycling</label>
+            </div>
+        </div>
+
+        <button class="form__btn" onclick="submitForm(event)">Save</button>
+    </form>
+
+    <div class="student">
+        
+        <!-- <div class="student__card">
+            <div class="student__img">
+                <img src="assets/images/male_avatar.png" alt="sample img of student">
+            </div>
+            <div class="student__info">
+                <p class="student__name">Selim Reza</p>
+                <p class="student__email">selim@gmail.com</p>
+                <p class="student__country">Bangladesh</p>
+                <p class="student__hobbies">Student hobbies list</p>
+                <ol>
+                    <li>Cycling</li>
+                    <li>Running</li>
+                </ol>
+            </div>
+        </div> -->
+
+    </div>
+
+    <div class="test__block">
+        <div class="sub_div">one</div>
+        <div class="sub_div">two</div>
+        <div class="sub_div">three</div>
+        <div class="sub_div">one</div>
+        <div class="sub_div">two</div>
+        <div class="sub_div">three</div>
+        <div class="sub_div">one</div>
+        <div class="sub_div">two</div>
+        <div class="sub_div">three</div>
+        <div class="sub_div">one</div>
+        <div class="sub_div">two</div>
+        <div class="sub_div">three</div>
+        <div class="sub_div">one</div>
+        <div class="sub_div">two</div>
+        <div class="sub_div">three</div>
+    </div>
+
+    <script src="assets/js/pratice/dom/practice1.js"></script>
+</body>
+
+</html>

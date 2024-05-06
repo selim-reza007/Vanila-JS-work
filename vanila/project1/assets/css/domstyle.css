@@ -1,0 +1,119 @@
+
+
+.form {
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form__group {
+    /* background-color: red; */
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input {
+    min-width: 250px;
+}
+
+.form__inputSelect {
+    min-width: 258px;
+}
+
+.form__radioInp, .form__selectInp {
+    min-width: 262px;
+}
+
+.form__btn {
+    align-self: center;
+    padding: 5px 30px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.student__card {
+    background-color: #eee;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.student__img {
+    width: 40%;
+}
+
+.student__img img {
+    width: 100%;
+}
+
+.student__info {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    padding-left: 20px;
+}
+
+.student__info > p {
+    margin: 2px;
+    padding: 0;
+}
+
+.student__country {
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.student__hobbies {
+    font-size: 17px;
+    margin-top: 10px !important;
+}
+
+
+.student__info > ol {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.student__name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.test__block {
+    margin-top: 50px;
+    height: 200px;
+    width: 350px;
+    background-color: cadetblue;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.sub_div {
+    background-color: red;
+    padding: 0;
+}
+
+.custome_style {
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
